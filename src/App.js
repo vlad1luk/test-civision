@@ -7,7 +7,7 @@ import MapComponent from "./Map.js";
 import SelectList from "./SelectList.js";
 import { PieCharStat } from "./PieChart.js";
 
-export const serveurUrl = "http://localhost:3009";
+export const serveurUrl = "http://localhost:3019";
 export const effacerDonnees = (setOption,setOffres,setStats) => {
   setOption(-1);
   setOffres([]);
